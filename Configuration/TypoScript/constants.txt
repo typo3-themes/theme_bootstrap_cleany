@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap_cleany/Configuration/Theme/constants.ts">
