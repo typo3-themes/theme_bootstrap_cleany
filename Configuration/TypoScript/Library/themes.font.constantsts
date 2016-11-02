@@ -1,0 +1,12 @@
+
+# #customcategory=font=Theme: Font settings
+
+
+# cat=font,expert//; type=string; label=Font: Font path
+themes.configuration.font.fontFilePath = http://fonts.googleapis.com/css?family=Raleway:400,700,800&amp;subsetting=all
+
+# cat=font,expert//; type=string; label=Font: Second Font path
+themes.configuration.font.secondFontFilePath = http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300
+
+# cat=font,expert//; type=string; label=Font: Icon-Font path
+themes.configuration.font.icon.fontFilePath = /typo3conf/ext/theme_bootstrap_cleany/Resources/Public/Contrib/Bootstrap/fonts/

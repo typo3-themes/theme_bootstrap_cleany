@@ -1,1 +1,6 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap_cleany/Configuration/Theme/constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Configuration/TypoScript/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_cleany/Configuration/TypoScript/Library/" extensions="constantsts">
+
+lib.icons.menu {
+	default-icon = star
+}

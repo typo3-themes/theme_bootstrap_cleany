@@ -11,38 +11,36 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Cleany - HTML5 Landing Page',
-	'description' => 'TYPO3 compatible adaptation of the \"Cleany - HTML5 Landing Page\" by simplesphere',
-	'category' => 'fe',
-	'shy' => 0,
-	'version' => '0.0.1',
-	'dependencies' => '',
-	'conflicts' => '',
-	'priority' => '',
-	'loadOrder' => '',
-	'module' => '',
-	'state' => 'beta',
-	'uploadfolder' => 0,
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearcacheonload' => 0,
-	'lockType' => '',
-	'author' => 'Jo Hasenau',
-	'author_email' => 'info@cybercraft.de',
-	'author_company' => 'Cybercraft Media Manufactory',
-	'CGLcompliance' => '',
-	'CGLcompliance_note' => '',
-	'constraints' => array(
-		'depends' => array(
-			'php' => '5.5.0-0.0.0',
-			'typo3' => '7.6.0-7.6.99',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
-	'_md5_values_when_last_written' => 'a:0:{}',
+    'title' => 'Cleany - HTML5 Landing Page',
+    'description' => 'TYPO3 compatible adaptation of the \"Cleany - HTML5 Landing Page\" by simplesphere',
+    'category' => 'fe',
+    'shy' => 0,
+    'version' => '1.0.0',
+    'dependencies' => '',
+    'conflicts' => '',
+    'priority' => '',
+    'loadOrder' => '',
+    'module' => '',
+    'state' => 'beta',
+    'uploadfolder' => 0,
+    'createDirs' => '',
+    'modify_tables' => '',
+    'clearcacheonload' => 0,
+    'lockType' => '',
+    'author' => 'Jo Hasenau',
+    'author_email' => 'info@cybercraft.de',
+    'author_company' => 'Cybercraft Media Manufactory',
+    'CGLcompliance' => '',
+    'CGLcompliance_note' => '',
+    'constraints' => array(
+        'depends' => array(
+            'php' => '5.5.0-0.0.0',
+            'typo3' => '7.6.0-7.6.99',
+        ),
+        'conflicts' => array(),
+        'suggests' => array(),
+    ),
+    '_md5_values_when_last_written' => 'a:0:{}',
 );
 
 ?>

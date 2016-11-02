@@ -1,0 +1,12 @@
+lib.gridelements {
+	section < .defaultGridSetup
+	section {
+		dataWrap = <section id="c{field:uid}" class="section"><div class="container">|</div></section>
+		columns.0 {
+			renderObj >
+			renderObj = < tt_content
+		}
+	}
+}
+
+tt_content.gridelements_pi1.20.10.setup.section < lib.gridelements.section

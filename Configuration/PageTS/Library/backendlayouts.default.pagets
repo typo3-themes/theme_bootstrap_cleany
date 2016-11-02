@@ -1,0 +1,15 @@
+mod.web_layout.BackendLayouts {
+	ContentEmpty >
+	ContentMenu >
+	ContentMenuSidebar >
+	ContentSidebar >
+	ContentSidebarMenu >
+	ContentSpecial >
+	ContentStartsite >
+	MenuContent >
+	MenuContentSidebar >
+	MenuSidebarContent >
+	SidebarContent >
+	SidebarContentMenu >
+	SidebarMenuContent >
+}

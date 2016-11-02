@@ -1,0 +1,53 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
+<!-- theme_bootstrap: Layouts/Special.html [begin] -->
+
+<!-- Banner -->
+<div id="banner" class="bg-blur">
+	<!-- Start Header -->
+	<div id="header">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Start Logo / Text -->
+					<f:cObject typoscriptObjectPath="lib.header.logo.main" />
+					<!-- End Logo / Text -->
+				</div>
+				<!-- Start Navigation -->
+				<div class="navigation navbar-collapse collapse">
+					<f:cObject typoscriptObjectPath="lib.menu.main" />
+					<div class="menu-language-wrapper pull-right">
+						<theme:widget.languageMenu
+							availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
+							currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
+							defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
+							defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
+							defaultLanguageFlag="{theme:constant(constant: 'themes.languages.default.flag')}"
+						/>
+						<f:if condition="{theme:constant(constant: 'themes.languages.available')}">
+						<span>
+							<f:translate key="languageMenu_label" />
+						</span>
+						</f:if>
+					</div>
+				</div>
+				<!-- End Navigation  -->
+			</div>
+		</nav>
+	</div>
+	<!-- End Header -->
+	<div class="banner-content">
+		<f:cObject typoscriptObjectPath="lib.content.feature" />
+	</div>
+</div>
+
+<f:render section="Default" />
+
+<f:cObject typoscriptObjectPath="lib.content.extended" />
+
+<!-- theme_bootstrap: Layouts/Special.html [end] -->

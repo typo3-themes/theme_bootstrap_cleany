@@ -1,0 +1,21 @@
+page {
+	includeCSS {
+		theme >
+		bootstrap = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/bootstrap.css
+		simple-line-icons = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/simple-line-icons.css
+		fontawesome = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/font-awesome.min.css
+		prettyPhoto = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/prettyPhoto.css
+		styles = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/style.css
+	}
+}
+
+[globalVar = LIT:1 = {$themes.mode.isProduction}]
+	page {
+		includeCSS {
+			fontawesome = //maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
+			fontawesome {
+				external = 1
+			}
+		}
+	}
+[global]

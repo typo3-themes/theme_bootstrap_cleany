@@ -1,0 +1,34 @@
+# Settings for the development system
+
+page {
+	includeJS {
+		scrolltopcontrol >
+		custom >
+		html5shiv = EXT:theme_bootstrap_cleany/Resources/Public/JavaScript/html5shiv.js
+		html5shiv {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+		respond = EXT:theme_bootstrap_cleany/Resources/Public/JavaScript/respond.js
+		respond {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+	}
+	includeJSFooter {
+		prettyPhoto = EXT:theme_bootstrap_cleany/Resources/Public/JavaScript/prettyPhoto.js
+		prettyPhoto {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+		custom = EXT:theme_bootstrap_cleany/Resources/Public/JavaScript/custom.js
+		custom {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+	}
+}

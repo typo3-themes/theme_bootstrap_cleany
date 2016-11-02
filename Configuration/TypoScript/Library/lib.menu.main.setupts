@@ -1,0 +1,29 @@
+lib.menu.main >
+lib.menu.main = COA
+lib.menu.main {
+	wrap =  <ul class="nav navbar-nav menu-right">|</ul>
+	10 = HMENU
+	10 {
+		special = list
+		special.value.data = page:uid
+		1 = TMENU
+		1 {
+			sectionIndex = 1
+			sectionIndex.useColPos = 3
+			sectionIndex.type = header
+			target < lib.parseTarget
+			target =
+			target.override = {$PAGE_TARGET}
+			NO {
+				stdWrap.htmlSpecialChars = 1
+				wrapItemAndSub = <li>|</li>
+				ATagTitle.field = description // title
+			}
+		}
+	}
+	20 < .10
+	20.1.sectionIndex.useColPos = 0
+	30 < .10
+	30.1.sectionIndex.useColPos = 4
+}
+

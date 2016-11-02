@@ -1,0 +1,13 @@
+lib.gridelements {
+	carousel {
+		setCurrent.postUserFunc.responsiveMapping >
+		cObject = FLUIDTEMPLATE
+		cObject {
+			file = EXT:theme_bootstrap_cleany/Resources/Private/Templates/Elements/Carousel.html
+		}
+		columns.0.renderObj >
+		columns.0.renderObj =< tt_content
+	}
+}
+
+tt_content.gridelements_pi1.20.10.setup.carousel < lib.gridelements.carousel

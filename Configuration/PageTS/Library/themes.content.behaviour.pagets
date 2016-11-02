@@ -1,0 +1,14 @@
+themes {
+	content {
+		behaviour {
+			gridelements_pi1 {
+				singleColumn {
+					team = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.behaviour.team_listing
+				}
+				singleColumnHorizontal {
+					team = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.behaviour.team_listing
+				}
+			}
+		}
+	}
+}

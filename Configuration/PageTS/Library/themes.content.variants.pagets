@@ -1,0 +1,31 @@
+themes {
+	content {
+		# Variants for content elements
+		variants {
+			default {
+			}
+
+			# Special variant for Header
+			# Used by ctype header
+			# Will be merged with default
+			header {
+			}
+
+			# ctype: text
+			text {
+			}
+
+			# ctype: gridelements_pi1
+			gridelements_pi1 {
+				tabs {
+				}
+				container {
+				}
+				singleColumnHeaderFooter {
+				}
+			}
+			themes_buttoncontent_pi1 {
+			}
+		}
+	}
+}
