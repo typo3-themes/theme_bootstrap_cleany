@@ -1,7 +1,11 @@
 lib.gridelements {
 	section < .defaultGridSetup
 	section {
-		dataWrap = <section id="c{field:uid}" class="section"><div class="container">|</div></section>
+		innerWrap.cObject.default {
+			10.cObject.default.override = <section id="c{field:uid}"
+			20.stdWrap.noTrimWrap = | class="section |"|
+			30.cObject.default.override = ><div class="container">|</div></section>
+		}
 		columns.0 {
 			renderObj >
 			renderObj = < tt_content

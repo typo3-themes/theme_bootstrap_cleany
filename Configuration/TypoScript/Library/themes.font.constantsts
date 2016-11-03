@@ -3,10 +3,16 @@
 
 
 # cat=font,expert//; type=string; label=Font: Font path
-themes.configuration.font.fontFilePath = http://fonts.googleapis.com/css?family=Raleway:400,700,800&amp;subsetting=all
+themes.configuration.font.fontFilePath = http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300
 
-# cat=font,expert//; type=string; label=Font: Second Font path
-themes.configuration.font.secondFontFilePath = http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300
+# cat=font,expert//; type=string; label=Font: Font Family 1
+themes.configuration.font.family1.file = "Open Sans", "Raleway", Lucida Sans Unicode, Verdana, Helvetica, sans-serif;
+
+# cat=font,expert//; type=string; label=Font: Font path
+themes.configuration.font.secondFontFilePath = http://fonts.googleapis.com/css?family=Raleway:400,700,800&amp;subsetting=all
+
+# cat=font,expert//; type=string; label=Font: Font Family 2
+themes.configuration.font.family2.file = "Raleway", Lucida Sans Unicode, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 # cat=font,expert//; type=string; label=Font: Icon-Font path
 themes.configuration.font.icon.fontFilePath = /typo3conf/ext/theme_bootstrap_cleany/Resources/Public/Contrib/Bootstrap/fonts/

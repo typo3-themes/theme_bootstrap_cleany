@@ -7,7 +7,30 @@
 		product-name="theme_bootstrap_cleany">
 		<header/>
 		<body>
-			<!-- Variants labels -->
+			<trans-unit id="content.variants.bg_white">
+				<source>White Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_grey">
+				<source>Light Grey Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_grey2">
+				<source>Grey Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_blue">
+				<source>Coloured Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_dark">
+				<source>Dark Grey Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.blue_pattern">
+				<source>Pattern Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.white_text">
+				<source>White Text</source>
+			</trans-unit>
+			<trans-unit id="content.variants.arrow_bottom">
+				<source>Arrow Bottom</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

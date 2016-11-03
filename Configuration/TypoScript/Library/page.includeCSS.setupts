@@ -1,11 +1,11 @@
 page {
 	includeCSS {
-		theme >
-		bootstrap = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/bootstrap.css
-		simple-line-icons = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/simple-line-icons.css
-		fontawesome = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/font-awesome.min.css
-		prettyPhoto = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/prettyPhoto.css
-		styles = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheets/style.css
+		theme = EXT:theme_bootstrap_cleany/Resources/Private/Dyncss/import.less
+		fontawesome = EXT:theme_bootstrap_cleany/Resources/Public/Stylesheetsfont-awesome.min.css
+		fontawesome {
+			excludeFromConcatenation = 1
+			disableCompression = 1
+		}
 	}
 }
 

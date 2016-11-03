@@ -23,6 +23,16 @@ themes {
 				}
 				singleColumnHeaderFooter {
 				}
+				section {
+					bg-white = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.bg_white
+					bg-grey = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.bg_grey
+					bg-grey2 = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.bg_grey2
+					bg-blue = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.bg_blue
+					bg-dark = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.bg_dark
+					blue-pattern = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.blue_pattern
+					white-text = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.white_text
+					arrow-bottom = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.arrow_bottom
+				}
 			}
 			themes_buttoncontent_pi1 {
 			}

@@ -67,7 +67,7 @@ a {
 
 a:hover, a:focus {
 	text-decoration: none;
-	color: #007DA0;
+	color: #007da0;
 	outline: none;
 }
 
@@ -80,13 +80,13 @@ ul {
 ::-moz-selection {
 	text-shadow: none;
 	background: #08b4da;
-	color: #FFF;
+	color: #fff;
 }
 
 ::selection {
 	text-shadow: none;
 	background: #08b4da;
-	color: #FFF;
+	color: #fff;
 }
 
 img::selection {
@@ -100,7 +100,7 @@ img::-moz-selection {
 hr {
 	margin-top: 30px;
 	margin-bottom: 40px;
-	border-top: 1px solid #EFEFEF;
+	border-top: 1px solid #efefef;
 }
 
 body {
@@ -171,23 +171,23 @@ Classes
 }
 
 .bordered {
-	border: 1px solid #EFEFEF;
+	border: 1px solid #efefef;
 }
 
 .border-left {
-	border-left: 1px solid #EFEFEF;
+	border-left: 1px solid #efefef;
 }
 
 .border-right {
-	border-right: 1px solid #EFEFEF;
+	border-right: 1px solid #efefef;
 }
 
 .border-top {
-	border-top: 1px solid #EFEFEF;
+	border-top: 1px solid #efefef;
 }
 
 .border-bottom {
-	border-bottom: 1px solid #EFEFEF;
+	border-bottom: 1px solid #efefef;
 }
 
 .separator30 {
@@ -295,7 +295,7 @@ Classes
 	transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
-	color: #72B569;
+	color: #72b569;
 }
 
 .font-icon-list li {
@@ -326,12 +326,12 @@ Classes
 
 .btn:hover, .btn:focus {
 	background-color: #08b4da;
-	color: #FFF;
+	color: #fff;
 }
 
 .btn-transparent {
 	background-color: transparent;
-	border: 2px solid #FFF;
+	border: 2px solid #fff;
 	color: #fff;
 }
 
@@ -341,12 +341,12 @@ Classes
 }
 
 .btn-price {
-	color: #FFF;
+	color: #fff;
 }
 
 .btn-price:hover {
-	background-color: #FFF;
-	border-color: #FFF;
+	background-color: #fff;
+	border-color: #fff;
 	color: #2a2a2a;
 }
 
@@ -360,7 +360,7 @@ Classes
 	position: absolute;
 	content: "";
 	border: 25px solid;
-	border-color: #FAFAFA transparent transparent transparent;
+	border-color: #fafafa transparent transparent transparent;
 	display: block;
 	margin-left: -13.5px;
 }
@@ -369,19 +369,19 @@ Classes
 Color Customizations
 ========================================================================== */
 .bg-white {
-	background-color: #FFF;
+	background-color: #fff;
 }
 
 .bg-grey {
-	background-color: #FAF7F8;
+	background-color: #faf7f8;
 }
 
 .bg-grey {
-	background-color: #FAFAFA;
+	background-color: #fafafa;
 }
 
 .bg-grey2 {
-	background-color: #F5F5F5;
+	background-color: #f5f5f5;
 }
 
 .bg-blue {
@@ -406,23 +406,23 @@ Color Customizations
 }
 
 .white-text {
-	color: #FFF;
+	color: #fff;
 }
 
 .white-text p {
-	color: #FFF;
+	color: #fff;
 }
 
 .white-text h3 {
-	color: #FFF;
+	color: #fff;
 }
 
 .white-text h2 {
-	color: #FFF;
+	color: #fff;
 }
 
 .white-text li {
-	color: #FFF;
+	color: #fff;
 }
 
 /* ==========================================================================
@@ -449,7 +449,7 @@ Headline
 .headline h1 {
 	color: #31373a;
 	padding-bottom: 15px;
-	border-bottom: 2px solid #DDD;
+	border-bottom: 2px solid #ddd;
 	display: inline-block;
 	font-size: 44px;
 }
@@ -541,7 +541,7 @@ Headline
 
 .scroll-fixed-navbar {
 	padding: 10px 0;
-	background-color: #FFF;
+	background-color: #fff;
 	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
@@ -580,7 +580,7 @@ Headline
 Logo
 ======================================================.==================== */
 .navbar-inverse .navbar-brand {
-	color: #FFF;
+	color: #fff;
 	font-size: 30px;
 	font-weight: 700;
 	padding: 0;
@@ -625,19 +625,19 @@ Banner
 
 .banner-content h1 {
 	font-size: 50px;
-	color: #FFF;
+	color: #fff;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	padding-bottom: 10px;
 }
 
 .banner-content h2 {
-	color: #FFF;
+	color: #fff;
 }
 
 .banner-content h5 {
 	font-weight: bold;
 	font-size: 16px;
-	color: #FFF;
+	color: #fff;
 }
 
 .banner-content p {
@@ -759,7 +759,7 @@ Forms
 
 .form-title {
 	background-color: rgba(0, 0, 0, 0.5);
-	color: #FFF;
+	color: #fff;
 	text-align: center;
 	padding: 25px 0;
 }
@@ -797,7 +797,7 @@ Forms
 	display: block;
 	margin: 0 auto;
 	background-color: #08b4da;
-	color: #FFF;
+	color: #fff;
 	border-color: rgba(0, 0, 0, 0.01);
 	width: 100%;
 	padding: 11px;
@@ -889,7 +889,7 @@ Portfolio
 }
 
 .img-zoom i {
-	color: #FFF;
+	color: #fff;
 	font-size: 18px;
 }
 
@@ -958,7 +958,7 @@ Testimonials
 .testimonial-inner img {
 	margin-right: 30px;
 	border-radius: 4px;
-	border: 3px solid #FFF;
+	border: 3px solid #fff;
 	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
@@ -981,14 +981,14 @@ Testimonials
 Pricing
 ============================================================================ */
 .price-plan {
-	background: #FFF;
+	background: #fff;
 	border: 1px solid rgba(0, 0, 0, 0.05);
 	border-radius: 0;
 	box-shadow: none;
 }
 
 .price-plan h4 {
-	color: #FFF;
+	color: #fff;
 	font-size: 17px;
 	text-align: center;
 	margin-bottom: 0;
@@ -1032,7 +1032,7 @@ Pricing
 
 .price-plan .list-group-item {
 	padding: 15px 20px;
-	border: 1px dotted #E5E5E5;
+	border: 1px dotted #e5e5e5;
 	text-align: center;
 }
 
@@ -1051,7 +1051,7 @@ Pricing
 }
 
 .popular .panel-body {
-	background: #0AA9CC;
+	background: #0aa9cc;
 }
 
 .popular .panel-footer {
@@ -1083,8 +1083,8 @@ faq-bodys
 
 .answer {
 	position: relative;
-	border: 1px solid #E5E5E5;
-	background-color: #FFF;
+	border: 1px solid #e5e5e5;
+	background-color: #fff;
 	padding: 20px;
 	margin-top: 30px;
 	border-radius: 3px;
@@ -1095,7 +1095,7 @@ faq-bodys
 	position: absolute;
 	border-style: solid;
 	border-width: 0 15px 15px;
-	border-color: #FFFFFF transparent;
+	border-color: #ffffff transparent;
 	display: block;
 	width: 0;
 	z-index: 1;
@@ -1109,7 +1109,7 @@ faq-bodys
 	position: absolute;
 	border-style: solid;
 	border-width: 0 15px 15px;
-	border-color: #E5E5E5 transparent;
+	border-color: #e5e5e5 transparent;
 	display: block;
 	width: 0;
 	z-index: 0;
@@ -1132,7 +1132,7 @@ Footer
 }
 
 .footer h3 {
-	color: #FFF;
+	color: #fff;
 	font-weight: bold;
 	font-size: 19px;
 	margin-bottom: 15px;
@@ -1140,7 +1140,7 @@ Footer
 
 .footer p,
 .footer a {
-	color: #ADADAD;
+	color: #adadad;
 	margin-bottom: 10px;
 }
 
@@ -1158,12 +1158,12 @@ Footer
 }
 
 .copyright i {
-	color: #FF3D7F;
+	color: #ff3d7f;
 	margin: 0 5px;
 }
 
 .contact-list li {
-	color: #ADADAD;
+	color: #adadad;
 	margin-bottom: 5px;
 }
 
@@ -1201,7 +1201,7 @@ Carousel Settings
 }
 
 .carousel-mod .carousel-indicators li {
-	background-color: #A3A3A3;
+	background-color: #a3a3a3;
 	border: none;
 	margin: 0;
 }
@@ -1293,7 +1293,7 @@ Media Queries
 /* ------ Mobile Landscape Size to Tablet Portrait (devices and browsers) ------*/
 @media only screen and (max-width: 767px) {
 	.navbar-inverse {
-		background-color: #FFF;
+		background-color: #fff;
 		padding: 0;
 	}
 
@@ -1315,7 +1315,7 @@ Media Queries
 	.navbar-inverse .navbar-nav > .active > a:hover,
 	.navbar-inverse .navbar-nav > .active > a:focus,
 	.navbar-inverse .navbar-nav > li > a:hover {
-		color: #00A8D6;
+		color: #00a8d6;
 	}
 
 	img {

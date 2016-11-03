@@ -7,7 +7,38 @@
 		product-name="theme_bootstrap_cleany">
 		<header/>
 		<body>
-
+			<trans-unit id="content.variants.bg_white">
+				<source>White Background</source>
+				<target>Weißer Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_grey">
+				<source>Light Grey Background</source>
+				<target>Hellgrauer Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_grey2">
+				<source>Grey Background</source>
+				<target>Grauer Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_blue">
+				<source>Coloured Background</source>
+				<target>Farbiger Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.bg_dark">
+				<source>Dark Grey Background</source>
+				<target>Dunkelgrauer Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.blue_pattern">
+				<source>Pattern Background</source>
+				<target>Gekachelter Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.white_text">
+				<source>White Text</source>
+				<target>Weißer Text</target>
+			</trans-unit>
+			<trans-unit id="content.variants.arrow_bottom">
+				<source>Arrow Bottom</source>
+				<source>Pfeil Unten</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

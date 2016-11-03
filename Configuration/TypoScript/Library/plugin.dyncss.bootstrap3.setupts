@@ -1,69 +1,28 @@
 plugin.tx_dyncss.overrides {
 
-	brand-primary >
-	brand-primary = CASE
-	brand-primary {
-		key.data = levelfield:-1, layout, slide
-		default = TEXT
-		default.value = {$themes.configuration.colors.primary}
-		1 = TEXT
-		1.value = {$themes.configuration.colors.primary2}
-		2 = TEXT
-		2.value = {$themes.configuration.colors.primary3}
-		3 = TEXT
-		3.value = {$themes.configuration.colors.primary4}
-		4 = TEXT
-		4.value = {$themes.configuration.colors.primary5}
-		5 = TEXT
-		5.value = {$themes.configuration.colors.primary6}
-		6 = TEXT
-		6.value = {$themes.configuration.colors.primary7}
-	}
-	brand-primary1 = TEXT
-	brand-primary1.value = {$themes.configuration.colors.primary}
-	brand-primary2 = TEXT
-	brand-primary2.value = {$themes.configuration.colors.primary2}
-	brand-primary3 = TEXT
-	brand-primary3.value = {$themes.configuration.colors.primary3}
-	brand-primary4 = TEXT
-	brand-primary4.value = {$themes.configuration.colors.primary4}
-	brand-primary5 = TEXT
-	brand-primary5.value = {$themes.configuration.colors.primary5}
-	brand-primary6 = TEXT
-	brand-primary6.value = {$themes.configuration.colors.primary6}
-	brand-primary7 = TEXT
-	brand-primary7.value = {$themes.configuration.colors.primary7}
+	brand-primary = TEXT
+	brand-primary.value = {$themes.configuration.colors.primary}
+	brand-secondary = TEXT
+	brand-secondary.value = {$themes.configuration.colors.secondary}
+	link-color = TEXT
+	link-color.value = {$themes.configuration.colors.link}
+	text-color = TEXT
+	text-color.value = {$themes.configuration.colors.text}
 
-	brand-secondary >
-	brand-secondary = CASE
-	brand-secondary {
-		key.data = levelfield:-1, layout, slide
-		default = TEXT
-		default.value = {$themes.configuration.colors.secondary}
-		1 = TEXT
-		1.value = {$themes.configuration.colors.secondary2}
-		2 = TEXT
-		2.value = {$themes.configuration.colors.secondary3}
-		3 = TEXT
-		3.value = {$themes.configuration.colors.secondary4}
-		4 = TEXT
-		4.value = {$themes.configuration.colors.secondary5}
-		5 = TEXT
-		5.value = {$themes.configuration.colors.secondary6}
-		6 = TEXT
-		6.value = {$themes.configuration.colors.secondary7}
-	}
+	brand-danger = TEXT
+	brand-danger.value = {$themes.configuration.colors.error}
+	brand-info = TEXT
+	brand-info.value = {$themes.configuration.colors.information}
+	brand-success = TEXT
+	brand-success.value = {$themes.configuration.colors.success}
+	brand-warning = TEXT
+	brand-warning.value = {$themes.configuration.colors.warning}
 
-	cleany-color-green = TEXT
-	cleany-color-green.value = {$themes.configuration.colors.green}
-	cleany-color-blue = TEXT
-	cleany-color-blue.value = {$themes.configuration.colors.blue}
-	cleany-color-dark = TEXT
-	cleany-color-dark.value = {$themes.configuration.colors.dark}
-	cleany-color-red = TEXT
-	cleany-color-red.value = {$themes.configuration.colors.red}
-	cleany-color-turquoise = TEXT
-	cleany-color-turquoise.value = {$themes.configuration.colors.turquoise}
-	cleany-color-amethyst = TEXT
-	cleany-color-amethyst.value = {$themes.configuration.colors.amethyst}
+	font-family_1 = TEXT
+	font-family_1.value = {$themes.configuration.font.family1.file}
+	font-family_2 = TEXT
+	font-family_2.value = {$themes.configuration.font.family2.file}
+	icon-font-path = TEXT
+	icon-font-path.value = '{$themes.configuration.font.icon.fontFilePath}'
+
 }

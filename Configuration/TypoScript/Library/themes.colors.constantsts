@@ -1,0 +1,23 @@
+#############################################
+# Colors: Color constants
+#############################################
+
+# #customcategory=colors=Theme: Color settings
+# customsubcategory=colors_general=General colors
+# customsubcategory=colors_gray=Gray colors
+# customsubcategory=colors_message=Message colors
+
+# General colors
+#############################################
+
+# cat=colors,basic/colors_general/; type=color; label= Primary color
+themes.configuration.colors.primary = #00a8d6
+
+# cat=colors,basic/colors_general/; type=color; label= Secondary color
+themes.configuration.colors.secondary = #ffffff
+
+# cat=colors,basic/colors_general/; type=color; label= Link color
+themes.configuration.colors.link = #00a8d6
+
+# cat=colors,basic/colors_general/; type=color; label= Text color
+themes.configuration.colors.text = #000000

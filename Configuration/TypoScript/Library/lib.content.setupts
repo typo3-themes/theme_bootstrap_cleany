@@ -24,7 +24,7 @@ lib.content.feature {
 
 # Insert colPos 4 in extended content
 lib.content.extended {
-	wrap = <footer>|</footer>
+	wrap = <section class="footer footer-top">|</section>
 	50.slide = -1
 }
 

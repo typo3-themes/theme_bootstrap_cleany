@@ -4,22 +4,48 @@
 // Define all overwritable Variables, so that EXT:dyncss
 // is able to overwrite them.
 // In case of overwriting the definition value doesnt matter
-@brand-primary: #ff8700;
-@brand-secondary: #FFFFFF;
-@brand-primary1: #ff8700;
-@brand-secondary1: #FFFFFF;
-@brand-primary2: #ff8700;
-@brand-secondary2: #FFFFFF;
-@brand-primary3: #ff8700;
-@brand-secondary3: #FFFFFF;
-@brand-primary4: #ff8700;
-@brand-secondary4: #FFFFFF;
-@brand-primary5: #ff8700;
-@brand-secondary5: #FFFFFF;
-@brand-primary6: #ff8700;
-@brand-secondary6: #FFFFFF;
-@brand-primary7: #ff8700;
-@brand-secondary7: #FFFFFF;
+@brand-primary: #00a8d6;
+@brand-secondary: #ffffff;
+
+@lightblue1: desaturate(spin(@brand-primary, -2), 7%, relative);
+@lightblue2: lighten(desaturate(spin(@brand-primary, -2), 7%, relative), 5%, relative);
+@mediumblue: darken(@brand-primary, 26%, relative);
+@darkblue: darken(desaturate(@brand-primary, 8%, relative), 50%, relative);
+@lightblue2_trans_10: fade(@brand-primary, 90%, relative);
+
+@white: @brand-secondary;
+@black: #000000;
+@darkwhite: darken(@white, 10%, relative);
+@lightgrey: darken(@white, 25%, relative);
+@mediumgrey: darken(@white, 50%, relative);
+@darkgrey: darken(@white, 75%, relative);
+@lightblack: darken(@white, 90%, relative);
+@white_trans_20: fade(@white, 80%);
+@white_trans_30: fade(@white, 70%);
+@white_trans_40: fade(@white, 60%);
+@white_trans_80: fade(@white, 20%);
+@black_trans_99: fade(@black, 1%);
+@black_trans_97: fade(@black, 3%);
+@black_trans_95: fade(@black, 5%);
+@black_trans_90: fade(@black, 10%);
+@black_trans_70: fade(@black, 30%);
+@black_trans_60: fade(@black, 40%);
+@black_trans_50: fade(@black, 50%);
+@black_trans_40: fade(@black, 60%);
+@success: #72b569;
+@alert: #ff3d7f;
+@color_facebook: #204385;
+@color_twitter: #2aa9e0;
+@color_google-plus: #d3492c;
+@color_linkedin: #0073b2;
+@color_skype: #00b0f6;
+@color_youtube: #e22d24;
+@font-family_1: "Open Sans", "Raleway", Lucida Sans Unicode, Verdana, Helvetica, sans-serif;
+@font-family_2: "Raleway", Lucida Sans Unicode, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family_3: FontAwesome;
+@pattern-background: '../../../Public/Images/blue-square.png';
+@testimonial-background: '../../../Public/Images/headshot-bg.jpg';
+@banner-background: '../../../Public/Images/blur.png';
 
 @navbar-default-bg: @gray-dark;
 @navbar-default-link-color: @gray-lighter;
@@ -31,7 +57,7 @@
 @baseurlImage: '/typo3conf/ext/theme_bootstrap_cleany/Resources/Public/Images/';
 
 // Base font size for body tag
-@baseFontSize: 11;
+@baseFontSize: 14;
 
 // Styles for this theme
 @import "Library/animate.less";
