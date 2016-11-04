@@ -16,14 +16,20 @@
 			<trans-unit id="content.variants.bg_grey2">
 				<source>Grey Background</source>
 			</trans-unit>
-			<trans-unit id="content.variants.bg_blue">
+			<trans-unit id="content.variants.bg_coloured">
 				<source>Coloured Background</source>
 			</trans-unit>
 			<trans-unit id="content.variants.bg_dark">
 				<source>Dark Grey Background</source>
 			</trans-unit>
-			<trans-unit id="content.variants.blue_pattern">
+			<trans-unit id="content.variants.coloured_pattern">
 				<source>Pattern Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.coloured_cover">
+				<source>Cover Background</source>
+			</trans-unit>
+			<trans-unit id="content.variants.headline">
+				<source>Headline</source>
 			</trans-unit>
 			<trans-unit id="content.variants.white_text">
 				<source>White Text</source>

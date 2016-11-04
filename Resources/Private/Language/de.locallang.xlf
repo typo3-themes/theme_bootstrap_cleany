@@ -19,7 +19,7 @@
 				<source>Grey Background</source>
 				<target>Grauer Hintergrund</target>
 			</trans-unit>
-			<trans-unit id="content.variants.bg_blue">
+			<trans-unit id="content.variants.bg_coloured">
 				<source>Coloured Background</source>
 				<target>Farbiger Hintergrund</target>
 			</trans-unit>
@@ -27,9 +27,17 @@
 				<source>Dark Grey Background</source>
 				<target>Dunkelgrauer Hintergrund</target>
 			</trans-unit>
-			<trans-unit id="content.variants.blue_pattern">
+			<trans-unit id="content.variants.coloured_pattern">
 				<source>Pattern Background</source>
 				<target>Gekachelter Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.coloured_cover">
+				<source>Cover Background</source>
+				<target>Vollflächiger Hintergrund</target>
+			</trans-unit>
+			<trans-unit id="content.variants.headline">
+				<source>Headline</source>
+				<target>Headline</target>
 			</trans-unit>
 			<trans-unit id="content.variants.white_text">
 				<source>White Text</source>

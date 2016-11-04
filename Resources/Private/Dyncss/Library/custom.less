@@ -86,12 +86,12 @@ a {
 	color: @brand-primary;
 	&:hover {
 		text-decoration: none;
-		color: @mediumblue;
+		color: @mediumcolour;
 		outline: none;
 	}
 	&:focus {
 		text-decoration: none;
-		color: @mediumblue;
+		color: @mediumcolour;
 		outline: none;
 	}
 }
@@ -102,12 +102,12 @@ ul {
 }
 &::-moz-selection {
 	text-shadow: none;
-	background: @lightblue2;
+	background: @lightcolour2;
 	color: @white;
 }
 &::selection {
 	text-shadow: none;
-	background: @lightblue2;
+	background: @lightcolour2;
 	color: @white;
 }
 img {
@@ -289,11 +289,11 @@ form {
 	padding: 15px 35px;
 	font-weight: bold;
 	&:hover {
-		background-color: @lightblue2;
+		background-color: @lightcolour2;
 		color: @white;
 	}
 	&:focus {
-		background-color: @lightblue2;
+		background-color: @lightcolour2;
 		color: @white;
 	}
 }
@@ -341,9 +341,9 @@ form {
 			border-color: @lightgrey transparent transparent transparent;
 		}
 	}
-	&.bg-blue {
+	&.bg-coloured {
 		&:after {
-			border-color: @lightblue2 transparent transparent transparent;
+			border-color: @lightcolour2 transparent transparent transparent;
 		}
 	}
 	&.bg-dark {
@@ -361,21 +361,26 @@ form {
 .bg-grey2 {
 	background-color: @lightgrey;
 }
-.bg-blue {
-	background-color: @lightblue2;
+.bg-coloured {
+	background-color: @lightcolour2;
 }
 .bg-dark {
 	background-color: @darkgrey;
 }
-.bg-blue-pattern {
-	background-color: @lightblue2;
+.bg-coloured-pattern {
+	background-color: @lightcolour2;
 	background: url(@pattern-background);
+}
+.bg-coloured-cover {
+	background-color: @lightcolour2;
+	background: url(@pattern-background);
+	background-size: cover;
 }
 .bg-testimonial {
 	background: url(@testimonial-background);
 }
-.blue {
-	color: @lightblue2;
+.colour {
+	color: @lightcolour2;
 }
 .white-text {
 	color: @white;
@@ -404,7 +409,7 @@ form {
 	border-bottom: 1px solid @black_trans_97;
 	margin-bottom: 50px;
 	h1 {
-		color: @darkblue;
+		color: @darkcolour;
 		padding-bottom: 15px;
 		border-bottom: 2px solid @lightgrey;
 		display: inline-block;
@@ -464,7 +469,7 @@ form {
 		}
 	}
 	.navbar-toggle {
-		background: @lightblue2;
+		background: @lightcolour2;
 		border: none;
 	}
 	.navbar-collapse {
@@ -592,7 +597,7 @@ form {
 		margin-bottom: 5px;
 		i {
 			margin-right: 10px;
-			color: @lightblue2;
+			color: @lightcolour2;
 		}
 	}
 }
@@ -671,7 +676,7 @@ ul.steps-list {
 	box-shadow: 0 0 10px @black_trans_70;
 	background: @black_trans_60;
 	.form-control {
-		color: @lightblue2;
+		color: @lightcolour2;
 		border: none;
 		outline: none;
 		box-shadow: none;
@@ -705,15 +710,15 @@ ul.steps-list {
 .btn-submit {
 	display: block;
 	margin: 0 auto;
-	background-color: @lightblue2;
+	background-color: @lightcolour2;
 	color: @white;
 	border-color: @black_trans_99;
 	width: 100%;
 	padding: 11px;
-	border: 2px solid @lightblue2;
+	border: 2px solid @lightcolour2;
 	&:hover {
-		background: @lightblue2;
-		border-color: @lightblue2;
+		background: @lightcolour2;
+		border-color: @lightcolour2;
 	}
 }
 .stats {
@@ -751,7 +756,7 @@ ul.steps-list {
 		position: absolute;
 		top: 0;
 		left: 0;
-		background: @lightblue2_trans_10;
+		background: @lightcolour2_trans_10;
 		-moz-transition: all ease-in-out 400ms;
 		-webkit-transition: all ease-in-out 400ms;
 		-o-transition: all ease-in-out 400ms;
@@ -910,13 +915,13 @@ ul.steps-list {
 }
 .popular {
 	.panel-heading {
-		background: @lightblue2;
+		background: @lightcolour2;
 	}
 	.panel-body {
-		background: @lightblue1;
+		background: @lightcolour1;
 	}
 	.panel-footer {
-		background: @lightblue2;
+		background: @lightcolour2;
 	}
 }
 .faq-body {
@@ -1045,7 +1050,7 @@ ul.steps-list {
 			margin: 0;
 		}
 		.active {
-			background-color: @darkblue;
+			background-color: @darkcolour;
 			width: 10px;
 			height: 10px;
 		}
@@ -1082,7 +1087,7 @@ ul.steps-list {
 			color: @white;
 		}
 		&:hover {
-			background: @darkblue;
+			background: @darkcolour;
 			cursor: pointer;
 		}
 	}

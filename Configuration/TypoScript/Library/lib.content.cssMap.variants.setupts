@@ -2,9 +2,11 @@ lib.content.cssMap.variants {
 	bg-white = bg-white
 	bg-grey = bg-grey
 	bg-grey2 = bg-grey2
-	bg-blue = bg-blue
+	bg-coloured = bg-coloured
 	bg-dark = bg-dark
-	blue-pattern = bg-blue-pattern
+	coloured-pattern = bg-coloured-pattern
+	coloured-cover = bg-coloured-cover
+	headline = headline
 	white-text = white-text
 	arrow-bottom = arrow-bottom
 }

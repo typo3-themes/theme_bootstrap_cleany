@@ -6,6 +6,7 @@
 # customsubcategory=colors_general=General colors
 # customsubcategory=colors_gray=Gray colors
 # customsubcategory=colors_message=Message colors
+# customsubcategory=backgrounds=Background Images
 
 # General colors
 #############################################
@@ -21,3 +22,17 @@ themes.configuration.colors.link = #00a8d6
 
 # cat=colors,basic/colors_general/; type=color; label= Text color
 themes.configuration.colors.text = #000000
+
+
+# Backgrounds
+#############################################
+
+# cat=colors,advanced/backgrounds/; type=string; label= Banner Background: Path and filename (fileadmin/.../blur.png)
+themes.configuration.colors.banner.file = ../../../Public/Images/blur.png
+
+# cat=colors,advanced/backgrounds/; type=string; label= Pattern Background: Path and filename (fileadmin/.../blue-square.png)
+themes.configuration.colors.pattern.file = ../../../Public/Images/blue-square.png
+
+# cat=colors,advanced/backgrounds/; type=string; label= Testimonial Background: Path and filename (fileadmin/.../headshot-bg.jpg)
+themes.configuration.colors.testimonial.file = ../../../Public/Images/headshot-bg.jpg
+

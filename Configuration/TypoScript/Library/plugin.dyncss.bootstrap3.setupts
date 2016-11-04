@@ -9,6 +9,13 @@ plugin.tx_dyncss.overrides {
 	text-color = TEXT
 	text-color.value = {$themes.configuration.colors.text}
 
+	banner-background = TEXT
+	banner-background.value = '{$themes.configuration.colors.banner.file}'
+	pattern-background = TEXT
+	pattern-background.value = '{$themes.configuration.colors.pattern.file}'
+	testimonial-background = TEXT
+	testimonial-background.value = '{$themes.configuration.colors.testimonial.file}'
+
 	brand-danger = TEXT
 	brand-danger.value = {$themes.configuration.colors.error}
 	brand-info = TEXT
@@ -19,9 +26,9 @@ plugin.tx_dyncss.overrides {
 	brand-warning.value = {$themes.configuration.colors.warning}
 
 	font-family_1 = TEXT
-	font-family_1.value = {$themes.configuration.font.family1.file}
+	font-family_1.value = {$themes.configuration.font.family1.setting}
 	font-family_2 = TEXT
-	font-family_2.value = {$themes.configuration.font.family2.file}
+	font-family_2.value = {$themes.configuration.font.family2.setting}
 	icon-font-path = TEXT
 	icon-font-path.value = '{$themes.configuration.font.icon.fontFilePath}'
 

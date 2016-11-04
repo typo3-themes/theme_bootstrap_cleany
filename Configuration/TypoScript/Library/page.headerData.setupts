@@ -1,6 +1,6 @@
 page.headerData {
 	185 = TEXT
-	185.value = <link href='{$themes.configuration.font.fontFilePath}' rel='stylesheet' type='text/css'>
+	185.value = <link href='{$themes.configuration.font.family1.path}' rel='stylesheet' type='text/css'>
 	186 = TEXT
-	186.value = <link href='{$themes.configuration.font.secondFontFilePath}' rel='stylesheet' type='text/css'>
+	186.value = <link href='{$themes.configuration.font.family2.path}' rel='stylesheet' type='text/css'>
 }
