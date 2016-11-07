@@ -31,5 +31,6 @@ plugin.tx_dyncss.overrides {
 	font-family_2.value = {$themes.configuration.font.family2.setting}
 	icon-font-path = TEXT
 	icon-font-path.value = '{$themes.configuration.font.icon.fontFilePath}'
-
+	baseFontSize = TEXT
+	baseFontSize.value = {$themes.configuration.font.base.size}px
 }

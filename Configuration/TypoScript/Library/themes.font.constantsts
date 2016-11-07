@@ -16,3 +16,6 @@ themes.configuration.font.family2.setting = "Raleway", Lucida Sans Unicode, "Hel
 
 # cat=font,expert//; type=string; label=Font: Icon-Font path
 themes.configuration.font.icon.fontFilePath = /typo3conf/ext/theme_bootstrap_cleany/Resources/Public/Contrib/Bootstrap/fonts/
+
+# cat=font,expert//; type=int; label=Font: Base Font Size
+themes.configuration.font.base.size = 14px

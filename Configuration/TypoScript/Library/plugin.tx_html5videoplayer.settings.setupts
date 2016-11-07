@@ -1,0 +1,5 @@
+plugin.tx_html5videoplayer.view {
+	templateRootPaths.20 = EXT:theme_bootstrap_cleany/Resources/Private/Html5VideoPlayer/Templates/
+	partialRootPaths.20 = EXT:theme_bootstrap_cleany/Resources/Private/Html5VideoPlayer/Partials/
+	layoutRootPaths.20 = EXT:theme_bootstrap_cleany/Resources/Private/Html5VideoPlayer/Layouts/
+}

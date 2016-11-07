@@ -38,7 +38,9 @@ $EM_CONF[$_EXTKEY] = array(
             'typo3' => '7.6.0-7.6.99',
         ),
         'conflicts' => array(),
-        'suggests' => array(),
+        'suggests' => array(
+            'html5videoplayer' => '6.7.3-0.0.0'
+        ),
     ),
     '_md5_values_when_last_written' => 'a:0:{}',
 );
