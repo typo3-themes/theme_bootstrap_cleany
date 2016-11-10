@@ -12,6 +12,8 @@ themes {
 				coloured-cover = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.coloured_cover
 				white-text = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.white_text
 				arrow-bottom = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.arrow_bottom
+				bold-header = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.bold_header
+				coloured-header = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.coloured_header
 			}
 			header {
 				headline = LLL:EXT:theme_bootstrap_cleany/Resources/Private/Language/locallang.xlf:content.variants.headline

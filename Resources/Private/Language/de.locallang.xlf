@@ -39,6 +39,14 @@
 				<source>Headline</source>
 				<target>Headline</target>
 			</trans-unit>
+			<trans-unit id="content.variants.bold_header">
+				<source>All headers bold</source>
+				<source>Alle Überschriften fett</source>
+			</trans-unit>
+			<trans-unit id="content.variants.coloured_header">
+				<source>All headers coloured</source>
+				<target>All Überschriften farbig</target>
+			</trans-unit>
 			<trans-unit id="content.variants.white_text">
 				<source>White Text</source>
 				<target>Weißer Text</target>

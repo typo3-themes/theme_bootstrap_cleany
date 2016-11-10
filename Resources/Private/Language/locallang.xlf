@@ -31,6 +31,12 @@
 			<trans-unit id="content.variants.headline">
 				<source>Headline</source>
 			</trans-unit>
+			<trans-unit id="content.variants.bold_header">
+				<source>All headers bold</source>
+			</trans-unit>
+			<trans-unit id="content.variants.coloured_header">
+				<source>All headers coloured</source>
+			</trans-unit>
 			<trans-unit id="content.variants.white_text">
 				<source>White Text</source>
 			</trans-unit>

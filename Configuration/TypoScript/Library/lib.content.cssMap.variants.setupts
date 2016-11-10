@@ -7,6 +7,8 @@ lib.content.cssMap.variants {
 	coloured-pattern = bg-coloured-pattern
 	coloured-cover = bg-coloured-cover
 	headline = headline
+	bold-header = bold-header
+	coloured-header = coloured-header
 	white-text = white-text
 	arrow-bottom = arrow-bottom
 }
